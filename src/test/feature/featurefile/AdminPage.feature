@@ -15,9 +15,9 @@ Feature: OrangeHRM Admin Page
 
     Examples: 
       | EmployeeName   | UserName | Password  | ConfirmPassword |
-      | Jadine  Jackie | America  | Kohli@123 | Kohli@123       |
-      | Jadine  Jackie | India    | Kohli@123 | Kohli@123       |
-      | Jadine  Jackie | London   | Kohli@123 | Kohli@123       |
+      | Jadine  Jackie | America1 | Kohli@123 | Kohli@123       |
+      | Jadine  Jackie | India1   | Kohli@123 | Kohli@123       |
+      | Jadine  Jackie | London1  | Kohli@123 | Kohli@123       |
 
   Scenario: 
     Then User closes the browser
