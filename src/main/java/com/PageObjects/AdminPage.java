@@ -101,8 +101,9 @@ public class AdminPage extends Base {
     }
 
 	public void adminVerification(String UserName) {
-		this.delayScript(2);
+		this.delayScript(5);
 		this.searchUser(UserName);
+		this.delayScript(2);
 		this.search();
 		this.scroll();
 		this.delayScript(2);
