@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 @CucumberOptions(features = "src/test/feature/featureFile/PIMPage.feature",
 		glue = "StepDefinition", 
 		monochrome = true,
-		plugin = { "pretty", "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm", "json:target/cucumber.json" })
+		plugin = { "pretty", "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm", "json:target/cucumber.json " })
 public class Runner extends AbstractTestNGCucumberTests {
 
 }
