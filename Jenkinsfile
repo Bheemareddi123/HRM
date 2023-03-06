@@ -1,5 +1,5 @@
 pipeline{
-     agent any 
+     agent any^A 
      stages {
          stage('Compile stage'){
              steps{
